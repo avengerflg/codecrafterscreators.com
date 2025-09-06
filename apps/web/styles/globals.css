@@ -4,13 +4,13 @@
 
 @layer base {
   html {
-    font-family: 'Inter', system-ui, sans-serif;
+    font-family: "Inter", system-ui, sans-serif;
   }
-  
+
   * {
     @apply border-gray-200;
   }
-  
+
   body {
     @apply bg-white text-gray-900;
   }
@@ -20,15 +20,15 @@
   .btn {
     @apply inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 disabled:pointer-events-none disabled:opacity-50;
   }
-  
+
   .btn-primary {
     @apply btn bg-blue-600 text-white hover:bg-blue-700 h-10 px-4 py-2;
   }
-  
+
   .btn-secondary {
     @apply btn bg-gray-600 text-white hover:bg-gray-700 h-10 px-4 py-2;
   }
-  
+
   .card {
     @apply rounded-lg border bg-white text-gray-900 shadow-sm;
   }
@@ -38,7 +38,7 @@
   .animate-fade-in {
     animation: fadeIn 0.5s ease-in-out;
   }
-  
+
   .animate-slide-up {
     animation: slideUp 0.3s ease-out;
   }
