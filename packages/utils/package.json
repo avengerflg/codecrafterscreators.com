@@ -1,0 +1,22 @@
+{
+  "name": "@monorepo/utils",
+  "version": "1.0.0",
+  "description": "Shared utility functions and hooks",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "lint": "eslint src --ext .ts,.tsx",
+    "type-check": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.25",
+    "typescript": "^5.2.2",
+    "eslint": "^8.50.0"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,27 @@
+{
+  "name": "@monorepo/ui",
+  "version": "1.0.0",
+  "description": "Shared UI components library",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "lint": "eslint src --ext .ts,.tsx",
+    "type-check": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "framer-motion": "^10.16.4"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.25",
+    "@types/react-dom": "^18.2.10",
+    "typescript": "^5.2.2",
+    "eslint": "^8.50.0"
+  },
+  "dependencies": {
+    "clsx": "^2.0.0"
+  }
+}

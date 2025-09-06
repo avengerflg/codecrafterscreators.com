@@ -1,0 +1,23 @@
+{
+  "name": "@monorepo/api",
+  "version": "1.0.0",
+  "description": "Backend API server for the modern web application",
+  "main": "dist/app.js",
+  "scripts": {
+    "dev": "echo 'Backend not implemented yet. See README.md for setup instructions.'",
+    "build": "echo 'Backend not implemented yet. See README.md for setup instructions.'",
+    "start": "echo 'Backend not implemented yet. See README.md for setup instructions.'",
+    "lint": "echo 'Backend not implemented yet. See README.md for setup instructions.'"
+  },
+  "keywords": [
+    "api",
+    "backend",
+    "server",
+    "express",
+    "nestjs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}
